@@ -1,0 +1,31 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/*.db
+data/*.db-journal
+*.log
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# Node/Vite
+frontend/node_modules/
+frontend/dist/
+
+# Local database and environment secrets
+data/*.db
+*.db
+.env
+.env.*
+!.env.example
+
+# Test/cache/editor files
+.pytest_cache/
+.coverage
+.vscode/
+.DS_Store
